@@ -1,0 +1,21 @@
+python -m venv .venv
+
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+
+pip install pymongo[srv]
+
+project_root/
+├── .env
+├── RAG_PDF_App.py
+├── requirements.txt
+├── README.md
+└── images/
+    └── bindspacelogo.jpg
+
+    streamlit run RAG_PDF_App.py
+
+    streamlit run RAG_PDF_App.py
+
+    pip install streamlit langchain langchain-openai langchain-community openai faiss-cpu python-dotenv pypdf "pymongo[srv]" pandas xlrd openpyxl langchain-experimental tabulate
